@@ -33,14 +33,14 @@ function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active ">
             
-            <img src="/img/Imagen1.jpg" className="d-block w-100" height="500px" alt="..."></img>
+            <img src="/img/Banner3sf3.png" className="d-block w-100" height="500px" alt="..."></img>
           </div>
           <div className="carousel-item">
           
-            <img src="/img/Imagen1.jpg" className="d-block w-100" height="500px" alt="..."></img>
+            <img src="/img/Banner1sf.png" className="d-block w-100" height="500px" alt="..."></img>
           </div>
           <div className="carousel-item">          
-          <img src="/img/Imagen1.jpg" className="d-block w-100" height="500px" alt="..."></img>
+          <img src="/img/Banner2sf2.png" className="d-block w-100" height="500px" alt="..."></img>
           </div>
         </div>
         <button
