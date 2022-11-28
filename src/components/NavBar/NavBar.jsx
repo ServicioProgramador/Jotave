@@ -1,5 +1,7 @@
 import React from "react";
 import "./NavBar.css";
+import {Link} from "react-router-dom"
+import Logo from "../Logo/Logo";
 
 
 function NavBar() {
@@ -9,59 +11,59 @@ function NavBar() {
     <>
       <nav className="navbar  navbar-expand-lg navbar-light nav-stile ">
         <div className="container-fluid ">
-          <a className="navbar-brand fw-bold ms-4" href="/">
-            <img src="" alt="" />
+          <Link className="navbar-brand fw-bold ms-4" to="/">
+            <img src={Logo} alt="" />
             <h1>Jotave</h1>
-          </a>
+          </Link>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto me-4">
-              <a className="navbar-brand ms-4" href="/">
+              <Link className="navbar-brand ms-4" to="/">
                 Inicio
-              </a>
+              </Link>
               <li className="nav-item">
-                <a href="/" className="nav-link fw-bold" aria-current="page">
+                <Link to="/" className="nav-link fw-bold" aria-current="page">
                   Nosotros
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle fw-bold"
-                  href="/"
+                  to="/productos"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Productos
-                </a>
+                </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li className="nav-item">
-                    <a
-                      href="/"
+                    <Link
+                      to="/todos"
                       className="nav-link fw-bold"
                       aria-current="page"
                     >
                       Todos
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a
-                      href="/"
+                    <Link
+                      to="/categoria/imagen"
                       className="nav-link fw-bold"
                       aria-current="page"
                     >
                       Imagen
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="/" className="nav-link fw-bold">
+                    <Link to="/categoria/informatica" className="nav-link fw-bold">
                       Informatica
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="/" className="nav-link fw-bold">
+                    <Link to="/categoria/audio" className="nav-link fw-bold">
                       Audio
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
