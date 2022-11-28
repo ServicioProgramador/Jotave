@@ -3,7 +3,6 @@ import "./NavBar.css";
 import {Link} from "react-router-dom"
 import Logo from "../Logo/Logo";
 
-
 function NavBar() {
 
 
@@ -11,10 +10,16 @@ function NavBar() {
     <>
       <nav className="navbar  navbar-expand-lg navbar-light nav-stile ">
         <div className="container-fluid ">
+
           <Link className="navbar-brand fw-bold ms-4" to="/">
             <img src={Logo} alt="" />
             <h1>Jotave</h1>
           </Link>
+
+          <a className="navbar-brand fw-bold ms-4" href="/">
+           <img src=".../public/img/LogoNg.png" alt="" className="logonavbar" />
+            {/* <h1>Jotave</h1> */}
+          </a>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto me-4">
               <Link className="navbar-brand ms-4" to="/">
