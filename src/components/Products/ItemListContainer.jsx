@@ -21,7 +21,7 @@ function ItemListContainer() {
     <div>
       <div className="row">
         <span>
-          <h2 className="text-center mt-3">Productos Destacados</h2>
+          <h2 className="text-center mt-3"></h2>
         </span>
         <div>
           <ItemList data={data} />

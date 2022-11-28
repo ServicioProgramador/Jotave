@@ -1,23 +1,23 @@
 import React from "react";
 import "./NavBar.css";
-import {Link} from "react-router-dom"
-import Logo from "../Logo/Logo";
+import { Link } from "react-router-dom";
+
 
 function NavBar() {
-
-
   return (
     <>
       <nav className="navbar  navbar-expand-lg navbar-light nav-stile ">
         <div className="container-fluid ">
-
           <Link className="navbar-brand fw-bold ms-4" to="/">
-            <img src={Logo} alt="" />
             <h1>Jotave</h1>
           </Link>
 
           <a className="navbar-brand fw-bold ms-4" href="/">
-           <img src=".../public/img/LogoNg.png" alt="" className="logonavbar" />
+            <img
+              src=".../public/img/LogoNg.png"
+              alt=""
+              className="logonavbar"
+            />
             {/* <h1>Jotave</h1> */}
           </a>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -61,7 +61,10 @@ function NavBar() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/categoria/informatica" className="nav-link fw-bold">
+                    <Link
+                      to="/categoria/informatica"
+                      className="nav-link fw-bold"
+                    >
                       Informatica
                     </Link>
                   </li>
@@ -73,9 +76,9 @@ function NavBar() {
                 </ul>
               </li>
             </ul>
-          </div>          
-        </div>             
-      </nav>      
+          </div>
+        </div>
+      </nav>
     </>
   );
 }
