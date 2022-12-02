@@ -66,7 +66,7 @@ const data = [
 
   {
     id: 8,
-    img: "https://i.ibb.co/N6LrtJg/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.jpg",
+    img: "https://i.ibb.co/hCKWR4J/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.jpg",
     title: "Ventilador 18Pulgadas 3 en 1 STAR TRAK",
     price: "$00,00",
     category: "imagen",
