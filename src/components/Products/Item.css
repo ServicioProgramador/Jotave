@@ -28,7 +28,7 @@
     overflow: hidden;  
     transition: all 0.20s ease-in;
     cursor: pointer;
-        
+    
   }
 
   .card-count:hover{

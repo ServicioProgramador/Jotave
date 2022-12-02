@@ -9,12 +9,12 @@ function NavBar() {
       <nav className="navbar  navbar-expand-lg navbar-light nav-stile ">
         <div className="container-fluid ">
           <Link className="navbar-brand fw-bold ms-4" to="/">
-            <h1>Jotave</h1>
+            
           </Link>
 
           <a className="navbar-brand fw-bold ms-4" href="/">
             <img
-              src=".../public/img/LogoNg.png"
+              src="https://i.ibb.co/bvM0jYg/Logo-Blanco.png"
               alt=""
               className="logonavbar"
             />
