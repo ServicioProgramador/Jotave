@@ -1,8 +1,8 @@
 const data = [
   {
     id: 1,
-    img: "https://i.ibb.co/FVKkRVR/Smart-tv-Kanji-de-60-con-Android2.png",
-    title: "titulo 1",
+    img: "https://i.ibb.co/0QbcYBS/Aire-acondicionado-Split-Kanji-2600w-f-c-26fkht81.jpg",
+    title: "Aire acondicionado Split Kanji 2600w f/c 26fkht81",
     price: 1000,
     category: "imagen",
     detail: "bla bla bla",
@@ -46,7 +46,9 @@ const data = [
     title: "titulo 6",
     price: 6000,
     category: "informatica",
-    detail: "bla bla bla",
+    detail:
+      "bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla",
+      marca: "Samsung"
   },
   {
     id: 7,
@@ -80,6 +82,7 @@ const data = [
     price: 10000,
     category: "imagen",
     detail: "blu blu blu",
+    marca: "Samsumg"
   },
 ];
 
@@ -94,6 +97,7 @@ export default function getItems() {
 export function getItemsSingle(idItem) {
   return new Promise((resolve, reject) => {
     let itemFind = data.find((item) => {
+      
       return item.id === parseInt(idItem);
     });
 

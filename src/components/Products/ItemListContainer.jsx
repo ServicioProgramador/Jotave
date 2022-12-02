@@ -8,7 +8,6 @@ function ItemListContainer() {
 
   const { cat } = useParams();
 
-
   useEffect(() => {
     if (cat === undefined) {
       getItems().then((respuestaDatos) => setData(respuestaDatos));
@@ -20,9 +19,7 @@ function ItemListContainer() {
   return (
     <div>
       <div className="row">
-        <span>
-          <h2 className="text-center mt-3">Productos Destacados</h2>
-        </span>
+        <span></span>
         <div>
           <ItemList data={data} />
         </div>
