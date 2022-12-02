@@ -195,6 +195,7 @@ export default function getItems() {
 export function getItemsSingle(idItem) {
   return new Promise((resolve, reject) => {
     let itemFind = data.find((item) => {
+      
       return item.id === parseInt(idItem);
     });
 

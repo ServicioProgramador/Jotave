@@ -41,7 +41,7 @@ function NavBar() {
                 >
                   Productos
                 </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu" aria-labelledby="navbarDropleft">
                   <li className="nav-item">
                     <Link
                       to="/todos"

@@ -1,13 +1,15 @@
 import React from "react";
-import "./Item.css";
+/* import "./Slider.css"; */
 import { Link } from "react-router-dom";
 
-export default function Item(props) {
+
+export default function Slider(props) {
   let { title, img, detail, id, category } = props;
 
-  const urlDetalle = `/detail/ ${id}-${title}`;
+  const urlDetalle = `/SliderDetail/ ${id}-${title}`;
 
   return (
+    
     <div className="card-count ">
       <div className="card-img">
         <img src={img} alt={title} />
@@ -24,3 +26,5 @@ export default function Item(props) {
     </div>
   );
 }
+
+ 
