@@ -1,14 +1,15 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar';
 import Carousel from '../Carousel/Carousel';
-import { Footer} from "../Footer/Footer";
+import { NavBar } from '../NavBar/NavBar';
+import Whatsap from '../Whatsap/Whatsap';
 
 
 const Home = () => {
    return(
         <div>
-              <NavBar />
+               <NavBar />
               <Carousel />
+               <Whatsap />
             </div>
   ) 
 }

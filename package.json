@@ -11,14 +11,9 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.4",
     "react-owl-carousel": "^2.3.3",
-=======
-    "react-owl-carousel": "^2.3.3",
-    "react-router-dom": "^6.4.3",
->>>>>>> d621b6568cacfc990f04eb0f251a93ebe3718d3b
     "react-scripts": "5.0.1",
     "swiper": "^8.4.5",
     "web-vitals": "^2.1.4"
