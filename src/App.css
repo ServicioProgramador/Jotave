@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> d621b6568cacfc990f04eb0f251a93ebe3718d3b
 body {
   background-image: url('/public/img/FondosInicio-Productos.png');
 }
@@ -41,5 +44,9 @@ body {
   to {
     transform: rotate(360deg);
   }
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> d621b6568cacfc990f04eb0f251a93ebe3718d3b

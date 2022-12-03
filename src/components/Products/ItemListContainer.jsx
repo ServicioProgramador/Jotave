@@ -19,12 +19,22 @@ function ItemListContainer() {
   return (
     <div>
       <div className="row">
+<<<<<<< HEAD
 
         <span>
           <h2 className="text-center mt-3"></h2>
         </span>
 
         <span></span>
+=======
+<<<<<<< HEAD
+        <span>
+          <h2 className="text-center mt-3"></h2>
+        </span>
+=======
+        <span></span>
+>>>>>>> alexander
+>>>>>>> d621b6568cacfc990f04eb0f251a93ebe3718d3b
         <div>
           <ItemList data={data} />
         </div>

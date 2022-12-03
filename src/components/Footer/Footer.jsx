@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import React from 'react';
 
@@ -72,3 +73,17 @@ const Footer = () => {
 
 export { Footer }
 
+=======
+import React from "react";
+
+function Footer() {
+  return <div className="container mt-5">
+    
+    <div>Footer</div>
+    
+    
+  </div>;
+}
+
+export default Footer;
+>>>>>>> d621b6568cacfc990f04eb0f251a93ebe3718d3b

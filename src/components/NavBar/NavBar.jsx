@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
  
 function NavBar() {
-
-
   return (
     <>
+<<<<<<< HEAD
  <nav className="navbar navbar-light bg-light fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">
@@ -61,6 +61,81 @@ function NavBar() {
         
   
 
+=======
+      <nav className="navbar  navbar-expand-lg navbar-light nav-stile ">
+        <div className="container-fluid ">
+          <Link className="navbar-brand fw-bold ms-4" to="/">
+            <h1>Jotave</h1>
+          </Link>
+
+          <a className="navbar-brand fw-bold ms-4" href="/">
+            <img
+              src=".../public/img/LogoNg.png"
+              alt=""
+              className="logonavbar"
+            />
+            {/* <h1>Jotave</h1> */}
+          </a>
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul className="navbar-nav ms-auto me-4">
+              <Link className="navbar-brand ms-4" to="/">
+                Inicio
+              </Link>
+              <li className="nav-item">
+                <Link to="/" className="nav-link fw-bold" aria-current="page">
+                  Nosotros
+                </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle fw-bold"
+                  to="/productos"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Productos
+                </Link>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropleft">
+                  <li className="nav-item">
+                    <Link
+                      to="/todos"
+                      className="nav-link fw-bold"
+                      aria-current="page"
+                    >
+                      Todos
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      to="/categoria/imagen"
+                      className="nav-link fw-bold"
+                      aria-current="page"
+                    >
+                      Imagen
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      to="/categoria/informatica"
+                      className="nav-link fw-bold"
+                    >
+                      Informatica
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link to="/categoria/audio" className="nav-link fw-bold">
+                      Audio
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+>>>>>>> d621b6568cacfc990f04eb0f251a93ebe3718d3b
     </>
 
              
