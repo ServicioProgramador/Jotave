@@ -9,7 +9,6 @@ const Home = () => {
         <div>
               <NavBar />
               <Carousel />
-               <Footer />
             </div>
   ) 
 }

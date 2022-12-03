@@ -5,6 +5,7 @@ import "./NavBar.css";
  
 function NavBar() {
 
+
   return (
     <>
  <nav className="navbar navbar-light bg-light fixed-top">
@@ -44,7 +45,7 @@ function NavBar() {
               <li><Link className="dropdown-item" to="/categoria/terrmotanques"><span>Termotanques y Calefones</span></Link></li>
                 <li><Link className="dropdown-item" to="/categoria/cocinas y hornos"><span>Cocinas y Hornos</span><i className="bi bi-caret-down-fill"></i></Link></li>
                 <li><Link className="dropdown-item" to="/categoria/pequeños hogar"><span>Pequeños Hogar</span><i className="bi bi-caret-down-fill"></i></Link></li>
-                <li><Link className="dropdown-item" to="/categoria/pequeños cocina"><span>Pequeño Cocina</span><i className="bi bi-caret-down-fill"></i></Link></li>
+                <li><Link className="dropdown-item" to="/categoria/pequeños cocina"><span>Pequeños Cocina</span><i className="bi bi-caret-down-fill"></i></Link></li>
              <li><Link className="dropdown-item" to="/categoria/cuidado personal"><span>Cuidado personal</span></Link></li>
                 <li><Link className="dropdown-item" to="/categoria/informatica"><span>Informática</span><i className="bi bi-caret-down-fill"></i></Link></li>
                 <li><Link className="dropdown-item" to="/categoria/jardin"><span>Jardín</span><i className="bi bi-caret-down-fill"></i></Link></li>
@@ -60,7 +61,12 @@ function NavBar() {
         
   
 
-    </>    
+    </>
+
+             
+                  
+              
+                  
   );
 }
 

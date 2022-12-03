@@ -1,3 +1,7 @@
+.row{
+  padding-top: 15px;
+}
+
 .card-img{
     width: 100%;
     height: 100%;
@@ -11,6 +15,7 @@
 
   .card-detail{
     text-align: center;
+    padding: 12px 8px;
   }
 
   .card-count{
@@ -24,7 +29,7 @@
     overflow: hidden;  
     transition: all 0.20s ease-in;
     cursor: pointer;
-    
+        
   }
 
   .card-count:hover{
@@ -32,6 +37,12 @@
     transform: translateY(-6px);
   }
 
-  .card-detail{
-    padding: 12px 8px;
+  .button_info{
+    background-color: #42687c;
+    border: none;
+    margin: 20px auto;
+    width: 112px;
+    height: 36px;
+    cursor: pointer;
+
   }
