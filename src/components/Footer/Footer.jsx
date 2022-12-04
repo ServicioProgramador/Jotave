@@ -10,9 +10,10 @@ const Footer = () => {
     
     <div className="container text-center text-md-start mt-5">
       <p>Comunicate con nosotros a traves de nuestras redes:</p>
-    </div>
   
-    <div className='container text-center text-md-start mt-5'>
+    </div>
+     
+    <div className='container text-center text-md-start mt-5 '>
 
    <a href="" className="me-4 link-secondary"></a>
         
@@ -25,7 +26,7 @@ const Footer = () => {
  
     </div> 
     </section>
- 
+    
 
  
   <section className="">
