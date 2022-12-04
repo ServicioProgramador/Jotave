@@ -12,7 +12,7 @@ function InfoWsp() {
         <img
           className="img-fluid"
           src="https://i.ibb.co/XpMYTxP/Fondo-Whatsapp.gif"
-          alt=""
+          alt="banner-whatsapp"
         /> 
         </a>
       </div>
