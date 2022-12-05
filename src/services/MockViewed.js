@@ -1,7 +1,7 @@
 export const data = [
     {
       id: 1001,
-      title: "Heladera 1",
+      title: "Heladera 1 Heladera 1 Heladera 1 Heladera 1",
       detail: "el mas grande del mercado",
       img: "https://picsum.photos/200/300?random=1",
       price: 2500,

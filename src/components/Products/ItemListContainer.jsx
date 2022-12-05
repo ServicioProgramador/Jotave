@@ -19,13 +19,6 @@ function ItemListContainer() {
   return (
     <div>
       <div className="row">
-<<<<<<< HEAD
-        <span>
-          <h2 className="text-center mt-3"></h2>
-        </span>
-=======
-        <span></span>
->>>>>>> alexander
         <div>
           <ItemList data={data} />
         </div>

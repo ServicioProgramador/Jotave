@@ -13,7 +13,7 @@ export default function SliderList({ data }) {
   return (
     <>
       <div className="text-center mt-4">
-        <h3 className="">Productos Destacados</h3>
+      <div className="div-linea"></div> <h3 className="">Productos Destacados</h3><div className="div-linea"></div>
       </div>
       <Swiper
         slidesPerView={1}
@@ -30,12 +30,12 @@ export default function SliderList({ data }) {
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            slidesPerView: 2,
+            spaceBetween: 10,
           },
           1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
+            slidesPerView: 4,
+            spaceBetween: 10,
           },
         }}
         navigation={true}
@@ -46,7 +46,7 @@ export default function SliderList({ data }) {
           return (
             <SwiperSlide>
               <div className="container ">
-                <div className="">
+                <div>
                   <Slider
                     key={item.id}
                     id={item.id}
@@ -66,21 +66,3 @@ export default function SliderList({ data }) {
     </>
   );
 }
-
-/* <div className="container mt-5">
-        <div className=" d-flex g-3 row">
-          {data.map((item) => {
-            return (
-              <Slider
-                key={item.id}
-                id={item.id}
-                price={item.price}
-                title={item.title}
-                img={item.img}
-                category={item.category}
-                stock={item.stock}
-              />
-            );
-          })}
-        </div>
-      </div> */

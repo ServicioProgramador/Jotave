@@ -33,28 +33,9 @@ function SliderDetail({ data }) {
                 <p>{data.detail} </p>
               </div>
               <span className="stock">
-                <i className="fa fa-pen"></i>En Stock
+                <i className="fa fa-pen"></i> En Stock
               </span>
-              <div className="reviews">
-                <ul className="stars">
-                  <li>
-                    <i className="fa fa-star"></i>
-                  </li>
-                  <li>
-                    <i className="fa fa-star"></i>
-                  </li>
-                  <li>
-                    <i className="fa fa-star"></i>
-                  </li>
-                  <li>
-                    <i className="fa fa-star"></i>
-                  </li>
-                  <li>
-                    <i className="fa fa-star-o"></i>
-                  </li>
-                </ul>
-                <span>(64 reviews)</span>
-              </div>
+              
             </div>
           </div>
           <div className="card__footer">
