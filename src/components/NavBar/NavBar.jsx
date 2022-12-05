@@ -9,9 +9,9 @@ function NavBar() {
 
  <nav className="navbar navbar-light bg-light fixed-top">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/">
+    <Link className="navbar-brand" to="/">
     <img src="https://i.ibb.co/bvM0jYg/Logo-Blanco.png" alt="" className="logoNavbar"/>
-    </a>
+    </Link>
     <button className="navbar-toggler"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span><i className="bi bi-list-nested"></i> </span>
     
@@ -30,10 +30,10 @@ function NavBar() {
             <Link className="nav-link" to="/nosotros">Nosotros</Link>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <Link className="nav-link dropdown-toggle" to="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             
               Productos
-            </a>
+            </Link>
 
              <ul className="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                <li><Link className="dropdown-item" to="/todos"> Todos</Link></li>

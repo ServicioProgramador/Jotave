@@ -21,13 +21,13 @@ const Nosotros = () => {
           
              <button>Seguinos <i class="bi bi-arrow-right-circle-fill"></i></button>
           
-              <a href="" className="me-4 link-secondary"></a>
+              {/* <a href="" className="me-4 link-secondary"></a>
           
                <i className="bi bi-instagram"></i>
                <a href="" className="me-4 link-secondary"></a>
           
                <i className="bi bi-whatsapp"></i>
-               <a href="" className="me-4 link-secondary"></a>
+               <a href="" className="me-4 link-secondary"></a> */}
           
           
              </div> 
