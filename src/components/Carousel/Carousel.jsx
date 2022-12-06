@@ -2,7 +2,7 @@ import React from "react";
 
 function Carousel() {
   return (
-    <div className="mt-3">
+    <div className="mt-">
       <div
         id="carouselExampleIndicators"
         className="carousel slide"
