@@ -24,7 +24,9 @@ function App() {
 
     <BrowserRouter>
       <NavBar />
+
       <Carousel />
+
       <Routes>
         <Route path="/" element={<ComponentGeneral />} />
         <Route path="/SliderDetail/:id" element={<SliderDetailContainer />} />

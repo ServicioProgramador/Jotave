@@ -1,7 +1,7 @@
 export const data = [
     {
       id: 1001,
-      title: "Heladera 1",
+      title: "Freezer horizontal Neba 250 Litros F250 Primera",
       detail: "el mas grande del mercado",
       img: "https://picsum.photos/200/300?random=1",
       price: 2500,

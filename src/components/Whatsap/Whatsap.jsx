@@ -5,7 +5,7 @@ export default function Whatsap() {
   return (
     <>
       <div class="float-end  div-wsp">
-        Whatsap
+       
       </div>
     </>
   );
