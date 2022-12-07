@@ -11,7 +11,6 @@ import NotFound from "./components/NotFound/NotFound";
 import ComponentGeneral from "./components/ComponentGeneral/ComponentGeneral";
 import Whatsap from "./components/Whatsap/Whatsap";
 import { NavBar } from "./components/NavBar/NavBar";
-import Carousel from "./components/Carousel/Carousel";
 import { Nosotros } from "./components/Nosotros/Nosotros";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
@@ -24,7 +23,7 @@ function App() {
 
     <BrowserRouter>
       <NavBar />
-      <Carousel />
+      
 
       <Routes>
         <Route path="/" element={<ComponentGeneral />} />

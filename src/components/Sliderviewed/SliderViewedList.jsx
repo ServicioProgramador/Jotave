@@ -16,7 +16,8 @@ export default function SliderViewedList({ data }) {
        <div className="div-linea"></div> <h3 className="">Productos Mas Vistos</h3><div className="div-linea"></div>
         
       </div>
-      <Swiper
+      
+      <Swiper 
         slidesPerView={1}
         spaceBetween={4}
         slidesPerGroup={1}
@@ -46,8 +47,7 @@ export default function SliderViewedList({ data }) {
         {data.map((item) => {
           return (
             <SwiperSlide>
-              <div className="container ">
-                <div className="">
+              <div className="container">                
                   <SliderViewed
                     key={item.id}
                     id={item.id}
@@ -57,7 +57,7 @@ export default function SliderViewedList({ data }) {
                     category={item.category}
                     stock={item.stock}
                   />
-                </div>
+                
               </div>
             </SwiperSlide>
           );

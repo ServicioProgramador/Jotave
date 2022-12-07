@@ -49,6 +49,15 @@
   margin: 20px auto 0 auto;
 }
 
+
+.swiper-button-prev{
+  color: black;
+}
+
+.swiper-button-next{
+  color: black;
+}
+
 /* .card-detail:nth-child(3) {
     position: relative ;
     display: flex;

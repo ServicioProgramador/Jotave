@@ -13,7 +13,7 @@ function NavBar() {
     <img src="https://i.ibb.co/bvM0jYg/Logo-Blanco.png" alt="" className="logoNavbar"/>
     </Link>
     <button className="navbar-toggler"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span><i className="bi bi-list-nested"></i> </span>
+      <span><i className="bi bi-list-nested"></i></span>
     
     </button>
     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -36,7 +36,7 @@ function NavBar() {
             </Link>
 
              <ul className="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-               <li><Link className="dropdown-item" to="/todos"> Todos</Link></li>
+               <li><Link className="dropdown-item" to="/todos">Todos</Link></li>
                <li className="dropdown-divider"></li>
                 <li><Link className="dropdown-item" to="/categoria/tv, audio y video"><span>Tv, Audio y Video</span><i className="bi bi-caret-down-fill"></i></Link></li>
                 <li><Link className="dropdown-item" to="/categoria/climatizacion"><span>Climatización</span><i className="bi bi-caret-down-fill"></i></Link></li>
