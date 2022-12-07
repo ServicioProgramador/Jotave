@@ -1,18 +1,20 @@
 import React from 'react';
 import './Nosotros.css';
-import televisor from '../../assets/tv.jpg'
+ 
 
 const Nosotros = () => {
    return(
-        <div className='container  p-5 text-center'>
-    <div className='container mt-5'>
-            <img src={televisor} alt="" width="400px" height="400px" />
-    </div>
+          <div  className='container  p-5 text-center'>
+    <a>
+            <img src="https://i.ibb.co/6H8bgWf/IMG-20221206-WA0028.jpg" alt="" width="700px" height="300px" />
+    </a>
          <div className='container'>
            <div className='row vh-100 pt-5 justify-content-center align-item-center '>
-            <h2>Sobre Nosotros</h2>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quas error at nostrum accusantium adipisci assumenda distinctio placeat facere tenetur sequi veniam deleniti ut aliquam, esse iusto voluptatum dolorum consequatur!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad numquam facere ratione culpa officiis at alias in quo rerum? Vitae ut quaerat magnam debitis totam ipsum, alias animi laudantium a?
+            <h1>Sobre Nosotros</h1>
+             <h2>Bienvenido a Grupo Jotave</h2>
+             <p>
+              Somos una empresa que se dedica exclusivamente a la venta financianda de electrodómesticos.
+              Desde hace 5 años nos encontramos en el mercado. Abastecemos y abarcamos la logística de distribución de más de 50 localidades de la provincia de Buenos Aires. 
              </p>
            
            

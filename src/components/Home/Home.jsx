@@ -5,6 +5,16 @@ import { NavBar } from "../NavBar/NavBar";
 import Whatsap from "../Whatsap/Whatsap";
 
 const Home = () => {
+
+   return(
+        <div>
+               <NavBar />
+               <Carousel /> 
+               <Whatsap />
+            </div>
+  ) 
+}
+
   return (
     <div>
       <NavBar />
@@ -13,5 +23,6 @@ const Home = () => {
     </div>
   );
 };
+
 
 export { Home };

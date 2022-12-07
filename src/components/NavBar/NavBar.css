@@ -1,17 +1,16 @@
-<<<<<<< HEAD
-=======
+
 
 .logonavbar {
-    width: 120px;
-    height: 50px;
-}
-
-.nav-stile{
-    background-color: #225d42;
+    width: 100px;
+    height: 80px;
+    left:-20px
     
+ 
 }
->>>>>>> d621b6568cacfc990f04eb0f251a93ebe3718d3b
 
+a.navbar-brand{
+    margin-left: 2rem;
+}
  nav {
     background: rgb(113,194,31);
     background: linear-gradient(90deg, rgba(113,194,31,1) 0%, rgba(249,177,18,1) 35%, rgba(249,246,18,1) 100%);
@@ -27,6 +26,31 @@ span {
 }
 .dropdown-item {
     text-align: center;
-    background: rgb(113,194,31);
-    background: linear-gradient(90deg, rgba(113,194,31,1) 0%, rgba(249,177,18,1) 35%, rgba(249,246,18,1) 100%);
+ 
 }
+.dropdown-menu li {
+   position: relative;
+}
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+.dropdown-menu>li:hover>.submenu {
+    display: block;
+}
+ @media only screen and  (max-width:575px )   {
+    .navbar navbar-expand-lg navbar-light bg-light {
+        display:none
+    
+    }
+
+}
+  
+
+    
+ 
+
+
+        
