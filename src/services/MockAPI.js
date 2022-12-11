@@ -53,7 +53,7 @@ const data = [
   {
     id: 7,
     img: "https://picsum.photos/200/300?random=7",
-    title: "titulo 7",
+    title: "Tv",
     price: 7000,
     category: "audio",
     detail: "ble ble ble",
@@ -62,7 +62,7 @@ const data = [
   {
     id: 8,
     img: "https://picsum.photos/200/300?random=8",
-    title: "titulo 8",
+    title: "Ventilador 200w",
     price: 8000,
     category: "imagen",
     detail: "bli bli bli",
@@ -70,7 +70,7 @@ const data = [
   {
     id: 9,
     img: "https://picsum.photos/200/300?random=9",
-    title: "titulo 9",
+    title: "Ventilador 100w",
     price: 9000,
     category: "imagen",
     detail: "blo blo blo",
@@ -78,7 +78,7 @@ const data = [
   {
     id: 10,
     img: "https://picsum.photos/200/300?random=10",
-    title: "titulo 10",
+    title: "Heladera",
     price: 10000,
     category: "imagen",
     detail: "blu blu blu",
@@ -120,3 +120,5 @@ export function getItemsByCategory(cat) {
     }, 2000);
   });
 }
+
+

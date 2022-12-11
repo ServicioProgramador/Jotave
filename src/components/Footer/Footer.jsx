@@ -4,30 +4,6 @@ import "./Footer.css";
 
 const Footer = () => {
 
-   return(
-    <footer className="text-center text-lg-start bg-white text-muted">
- 
-  <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    
-    <div className="container text-center text-md-start mt-5">
-      <p>Comunicate con nosotros a traves de nuestras redes:</p>
-  
-    </div>
-     
-    <div className='container text-center text-md-start mt-5 '>
-
-   <a href="" className="me-4 link-secondary"></a>
-        
-   <i className="bi bi-instagram"></i>
-   <a href="" className="me-4 link-secondary"></a>
-    
-   <i className="bi bi-whatsapp"></i>
-   <a href="" className="me-4 link-secondary"></a>
-    
- 
-    </div> 
-    </section>
-    
 
   return (
     <>

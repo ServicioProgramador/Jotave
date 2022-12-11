@@ -15,14 +15,4 @@ const Home = () => {
   ) 
 }
 
-  return (
-    <div>
-      <NavBar />
-      <Carousel />
-      <Whatsap />
-    </div>
-  );
-};
-
-
 export { Home };
