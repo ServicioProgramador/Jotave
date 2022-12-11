@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,400,700,800|Open+Sans:300");
+/* @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,400,700,800|Open+Sans:300");
 
 main {
   max-width: 720px;
@@ -203,4 +203,14 @@ span.stock {
 .button:hover {
   background: #fff;
   color: #115dd8;
+}
+ */
+
+
+
+ .image {  
+  max-width: 100%;
+  width: 400px;
+  max-height: 500px;
+
 }

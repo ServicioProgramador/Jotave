@@ -6,6 +6,7 @@ import './Nosotros.css';
  
 
 const Nosotros = () => {
+
   return(
     <>
 
@@ -21,7 +22,8 @@ const Nosotros = () => {
                 >Quienes somos</motion.h1>
 
         
-      </div>
+
+   
 
       <div  className='container justify-content-center text-center m-20'>
       <a>

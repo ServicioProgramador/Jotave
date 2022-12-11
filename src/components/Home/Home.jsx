@@ -6,7 +6,12 @@ import { Footer } from '../Footer/Footer'
 import SliderViewedListContainer from '../Sliderviewed/SliderViewedListContainer';
 import ItemListContainer from '../Products/ItemListContainer';
 
+
+
+
+
 const Home = () => {
+
    return(
         <div>
                <NavBar />
@@ -19,4 +24,8 @@ const Home = () => {
   ) 
 }
 
+
 export { Home } 
+
+ 
+
