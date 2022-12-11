@@ -1,8 +1,14 @@
-import React from "react";
-import Carousel from "../Carousel/Carousel";
-import { NavBar } from "../NavBar/NavBar";
+import React from 'react';
+import Carousel from '../Carousel/Carousel';
+import { NavBar } from '../NavBar/NavBar';
+import Whatsap from '../Whatsap/Whatsap';
+import { Footer } from '../Footer/Footer'
+import SliderViewedListContainer from '../Sliderviewed/SliderViewedListContainer';
+import ItemListContainer from '../Products/ItemListContainer';
 
-import Whatsap from "../Whatsap/Whatsap";
+
+
+
 
 const Home = () => {
 
@@ -10,19 +16,16 @@ const Home = () => {
         <div>
                <NavBar />
                <Carousel /> 
+               <SliderViewedListContainer />
+               <ItemListContainer />
                <Whatsap />
+               <Footer />
             </div>
   ) 
 }
 
-  return (
-    <div>
-      <NavBar />
-      <Carousel />
-      <Whatsap />
-    </div>
-  );
-};
 
+export { Home } 
 
-export { Home };
+ 
+

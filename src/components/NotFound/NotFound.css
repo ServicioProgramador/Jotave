@@ -1,0 +1,21 @@
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.imagen {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.img-error {
+    width: 500px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+}
+.error2 {
+    position: relative;
+    
+}
