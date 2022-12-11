@@ -1,0 +1,27 @@
+.texto{
+    margin-top: 80px;
+}
+
+h6 {
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+.iconos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    justify-content: center;
+    margin-bottom: 60px;
+  ;
+
+}
+
+.icon-svg {
+    width: 80px;
+    overflow: visible;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    margin-left: 20px;
+}

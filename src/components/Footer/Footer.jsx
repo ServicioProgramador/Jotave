@@ -1,6 +1,7 @@
 
 
 import React from 'react';
+import { Logo } from '../Logo/Logo';
 
 const Footer = () => {
    return(
@@ -14,6 +15,7 @@ const Footer = () => {
     </div>
      
     <div className='container text-center text-md-start mt-5 '>
+
 
    <a href="" className="me-4 link-secondary"></a>
         
@@ -66,7 +68,7 @@ const Footer = () => {
   <div className="text-center p-4">
    &copy; {new Date().getFullYear()} Copyright Desarrollado por WindeckerWebs
   </div>
-
+ <Logo />
 </footer>
 
   ) 
