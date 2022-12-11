@@ -1,18 +1,32 @@
-import React from "react";
-import Carousel from "../Carousel/Carousel";
-import { NavBar } from "../NavBar/NavBar";
+import React from 'react';
+import Carousel from '../Carousel/Carousel';
+import Whatsap from '../Whatsap/Whatsap';
+import SliderViewedListContainer from '../Sliderviewed/SliderViewedListContainer';
+import SliderListContainer from '../Slider/SliderListContainer';
+import InfoWsp from '../Infowsp/InfoWsp';
 
-import Whatsap from "../Whatsap/Whatsap";
+
+
+
+
 
 const Home = () => {
 
    return(
         <div>
-               <NavBar />
+               
                <Carousel /> 
+               <SliderViewedListContainer />
+               <InfoWsp/>
+               <SliderListContainer />
                <Whatsap />
+               
             </div>
   ) 
 }
 
-export { Home };
+
+export { Home } 
+
+ 
+

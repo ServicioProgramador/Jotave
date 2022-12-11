@@ -1,45 +1,60 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import "./Nosotros.css";
 
 const Nosotros = () => {
   return (
-    <div className="container  p-5 text-center">
-      <Link>
-        <img
-          src="https://i.ibb.co/6H8bgWf/IMG-20221206-WA0028.jpg"
-          alt=""
-          width="700px"
-          height="300px"
-        />
-      </Link>
-      <div className="container">
-        <div className="row vh-100 pt-5 justify-content-center align-item-center ">
-          <h1>Sobre Nosotros</h1>
-          <h2>Bienvenido a Grupo Jotave</h2>
-          <p>
-            Somos una empresa que se dedica exclusivamente a la venta
-            financianda de electrodómesticos. Desde hace 5 años nos encontramos
-            en el mercado. Abastecemos y abarcamos la logística de distribución
-            de más de 50 localidades de la provincia de Buenos Aires.
-          </p>
+    <>
+      
+      <div className="titulo">
+        <motion.h1
+          initial={{ y: -250 }}
+          animate={{ y: -10 }}
+          transition={{ delay: 0.2, type: "spring" }}
+          whileHover={{ scale: 1.1, textShadow: "1px 1px 3px grey" }}
+        >
+          Quienes somos
+        </motion.h1>
+      </div>
 
-          <div className="text-center m-5">
-            <button>
-              Seguinos <i className="bi bi-arrow-right-circle-fill"></i>
-            </button>
+      <div className="container justify-content-center text-center m-20">
+        <a>
+          <motion.img
+            animate={{ x: 0 }}
+            initial={{ x: "-100vw" }}
+            transition={{ delay: 1, type: "spring", duration: 2 }}
+            src="https://i.ibb.co/6H8bgWf/IMG-20221206-WA0028.jpg"
+            alt=""
+            className="img-nosotros"
+          />
+        </a>
+        <div className="container  text-center">
+          <motion.h2
+            animate={{
+              x: 100,
+              y: -100,
+              scale: 0.8,
+              rotate: 360,
+            }}
+            transition={{ delay: 2, duration: 3 }}
+            whileHover={{ scale: 1.1, textShadow: "1px 1px 3px grey" }}
+          >
+            <b>Bienvenido a Grupo Jotave</b>
+          </motion.h2>
 
-            {/* <a href="" className="me-4 link-secondary"></a>
-          
-               <i className="bi bi-instagram"></i>
-               <a href="" className="me-4 link-secondary"></a>
-          
-               <i className="bi bi-whatsapp"></i>
-               <a href="" className="me-4 link-secondary"></a> */}
+          <div className="container fluid">
+            <p>
+              Somos una empresa que se dedica exclusivamente a la venta
+              financianda de electrodómesticos. Desde hace 5 años nos
+              encontramos en el mercado. Abastecemos y abarcamos la logística de
+              distribución de más de 50 localidades de la provincia de Buenos
+              Aires.
+            </p>
+            <br />
           </div>
         </div>
-      </div>
-    </div>
+      </div>      
+    </>
   );
 };
 
