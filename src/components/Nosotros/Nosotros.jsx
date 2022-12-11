@@ -8,7 +8,7 @@ import './Nosotros.css';
 const Nosotros = () => {
 
   return(
-    <>
+     <>
 
               <NavBar />
       <div className='titulo'>
@@ -23,7 +23,7 @@ const Nosotros = () => {
 
         
 
-   
+   </div>
 
       <div  className='container justify-content-center text-center m-20'>
       <a>
