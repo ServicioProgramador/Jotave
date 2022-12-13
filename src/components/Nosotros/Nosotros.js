@@ -1,1 +1,0 @@
-<div>  <img src="/public/img/FondoNosotros.png"></img> </div>

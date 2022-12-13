@@ -1,12 +1,56 @@
 
+
 .logonavbar {
-    width: 150px;
-    height: 65px;
+    width: 100px;
+    height: 80px;
+    left:-20px
+    
+ 
 }
 
-.nav-stile{
-    background-color: #225d42;
+a.navbar-brand{
+    margin-left: 2rem;
+}
+ nav {
+    background: rgb(113,194,31);
+    background: linear-gradient(90deg, rgba(113,194,31,1) 0%, rgba(249,177,18,1) 35%, rgba(249,246,18,1) 100%);
+    font-family: 'Roboto Serif', serif;
     
 }
+span {
+    font-size: 18px;
+    color: rgb(10, 10, 10);
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
 
-/* Poner color aca */
+}
+.dropdown-item {
+    text-align: center;
+ 
+}
+.dropdown-menu li {
+   position: relative;
+}
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+.dropdown-menu>li:hover>.submenu {
+    display: block;
+}
+ @media only screen and  (max-width:575px )   {
+    .navbar navbar-expand-lg navbar-light bg-light {
+        display:none
+    
+    }
+
+}
+  
+
+    
+ 
+
+
+        

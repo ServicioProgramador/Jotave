@@ -1,13 +1,11 @@
 export const data = [
   {
-    id: 1,
-    img: "https://i.ibb.co/0QbcYBS/Aire-acondicionado-Split-Kanji-2600w-f-c-26fkht81.jpg",
-    title: "Aire Acondicionado Split KANJI 2600w FC",
-    price: "$00.00",
-    category: "imagen",
-    marca:  "Star Trak",
-    // category: "Climatización",
-    detail: "STOCK DISPONIBLE",
+    id: 1001,
+    title: "Smart Tv Noblex 55´ DK55X7100 UHD 4K Primera",
+    detail: " Capacidad 245L Eficiencia energética: B Voltaje: 220v Exterior fabricado en lamina de acero prepintado con protección vinílica Interior fabricada en lamina de acero galvanizada Contrapuerta PsRf Aislación térmica por inyección de poliuretano de alta densidad Burlete magnético que evita la pérdida de frio y condensación con propiedades anti-hongos Canasta removible. Serpentina de aluminio. Producto totalmente nuevo. Medidas: 85 cm de Ancho x 65 cm de Profundidad x 85cm de Altura",
+    img: "https://picsum.photos/200/300?random=1",
+    price: 2500,
+    marca: "samsung"
   },
   {
     id: 2,
@@ -116,7 +114,7 @@ export default function getItemsSlider() {
 export function getItemsSingleSlider(idItem) {
   return new Promise((resolve, reject) => {
     let itemFind = data.find((item) => {      
-      console.log("hola find", item.id, idItem);
+      
       return item.id === parseInt(idItem);
     });
 

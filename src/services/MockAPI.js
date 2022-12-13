@@ -56,28 +56,27 @@ const data = [
   },
   {
     id: 7,
-    img: "https://i.ibb.co/7V2dS40/ventilador-industrial-vitta-30-Pulgadas-2-en-1.jpg",
-    title: "Ventilador Industrial VITTA 30Pulgadas 2 en 1",
-    price: "$00,00",
-    category: "imagen",
-    // category: "Climatización",
-    deetail: "STOCK DISPONIBLE",
+    img: "https://picsum.photos/200/300?random=7",
+    title: "Tv",
+    price: 7000,
+    category: "audio",
+    detail: "ble ble ble",
   },
 
   {
     id: 8,
-    img: "https://i.ibb.co/hCKWR4J/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.jpg",
-    title: "Ventilador 18Pulgadas 3 en 1 STAR TRAK",
-    price: "$00,00",
+    img: "https://picsum.photos/200/300?random=8",
+    title: "Ventilador 200w",
+    price: 8000,
     category: "imagen",
     // category: "Climatización",
     deetail: "STOCK DISPONIBLE"
   },
   {
     id: 9,
-    img: "https://i.ibb.co/MgJGJFf/Ventilador-Pie-14-Pulgadas-Base-Pesada-STAR-TRAK.jpg",
-    title: "Ventilador Pie 14Pulgadas Base Pesada STAR TRAK",
-    price: "$00,00",
+    img: "https://picsum.photos/200/300?random=9",
+    title: "Ventilador 100w",
+    price: 9000,
     category: "imagen",
     // category: "Climatización",
     deetail: "STOCK DISPONIBLE"
@@ -130,8 +129,8 @@ const data = [
   {
     id: 15,
     img: "https://picsum.photos/200/300?random=10",
-    title: "titulo 10",
-    price: "$00,00",
+    title: "Heladera",
+    price: 10000,
     category: "imagen",
     // category: "Climatización",
     deetail: "STOCK DISPONIBLE"
@@ -218,3 +217,5 @@ export function getItemsByCategory(cat) {
     }, 2000);
   });
 }
+
+

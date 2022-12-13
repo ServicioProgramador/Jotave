@@ -1,64 +1,30 @@
 import React from "react";
 import "./SliderViewedDetail.css";
-import { Link } from "react-router-dom";
+
 
 function SliderViewedDetail({ data }) {
-  console.log("hola data", data);
+ 
   return (
     <>
-      <main>
-        <div className="card">
-          <div className="card__title">
-            <div className="icon">
-              <Link to="#">
-                <i className="fa fa-arrow-left"></i>
-              </Link>
-            </div>
-            <h3> </h3>
+      <div className="container card mt-5 d-flex p-1">
+        <div className="row g-0">
+          {/* imagen */}
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img
+              src={data.img}
+              className="img-fluid rounded-start image"
+              alt={data.title}
+            ></img>
           </div>
-          <div className="card__body">
-            <div className="half">
-              <div className="featured_text">
-                <h1>{data.title} </h1>
-
-                <h3 className="sub">{data.marca} </h3>
-                <p className="price"></p>
-              </div>
-              <div className="image">
-                <img src={data.img} alt={data.title}></img>
-              </div>
-            </div>
-            <div className="half">
-              <div className="description">
-                <p>{data.detail} </p>
-              </div>
-              <span className="stock">
-                <i className="fa fa-pen"></i>En Stock
-              </span>
-              <div className="reviews">
-                <ul className="stars">
-                  <li>
-                    <i className="fa fa-star"></i>
-                  </li>
-                  <li>
-                    <i className="fa fa-star"></i>
-                  </li>
-                  <li>
-                    <i className="fa fa-star"></i>
-                  </li>
-                  <li>
-                    <i className="fa fa-star"></i>
-                  </li>
-                  <li>
-                    <i className="fa fa-star-o"></i>
-                  </li>
-                </ul>
-                <span>(64 reviews)</span>
-              </div>
-            </div>
+          {/* info */}
+          <div className="card-body col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h5 className="card-title fs-1 text-uppercase">{data.title} </h5>
+            <p className="card-text">{data.detail} </p>
           </div>
-          <div className="card__footer">
-            <div className="recommend">
+          <span className="stock p-2"><i className="fa fa-pen"> </i>En Stock</span>
+        </div>
+        <div className="d-flex mt-5 justify-content-around">
+            <div className="recommend ">
               <p>Recomendado por</p>
               <h3>Jotave</h3>
             </div>
@@ -66,8 +32,8 @@ function SliderViewedDetail({ data }) {
               <button type="button">Link a wsp</button>
             </div>
           </div>
-        </div>
-      </main>
+      
+      </div>
     </>
   );
 }

@@ -1,30 +1,24 @@
 import React from "react";
-/* import "./Slider.css"; */
+import "./Slider.css";
 import { Link } from "react-router-dom";
 
-
 export default function Slider(props) {
-  let { title, img, detail, id, category } = props;
+  let { title, img, detail, id } = props;
 
   const urlDetalle = `/SliderDetail/ ${id}-${title}`;
 
   return (
-    
     <div className="card-count ">
       <div className="card-img">
         <img src={img} alt={title} />
       </div>
-      <div className="card-detail">
-        <h4>{title} </h4>
+      <div className="card-detail ">
+        <h4 className="card-title mt-5 text-uppercase">{title} </h4>
         <p>{detail} </p>
-        <p>{category} </p>
-        <p>Consultar stock</p>
         <Link to={urlDetalle}>
-          <button className="button_info">+ Info</button>
+          <button className="button_info mt-5">+ Info</button>
         </Link>
       </div>
     </div>
   );
 }
-
- 
