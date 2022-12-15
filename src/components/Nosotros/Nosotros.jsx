@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import './Nosotros.css';
@@ -48,14 +49,13 @@ const Nosotros = () => {
                   Desde hace 5 años nos encontramos en el mercado. Abastecemos y abarcamos la logística de distribución de más de 50 localidades de la provincia de Buenos Aires. 
                  </p>
                  <br />
-          </div>
-             
-           
-                   
-             </div>
-        </div>
-    </>
-  ) 
-}
 
-export { Nosotros }
+          </div>
+        </div>
+
+
+    </>
+  );
+};
+
+export { Nosotros };
