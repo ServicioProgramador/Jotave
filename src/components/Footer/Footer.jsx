@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Logo } from '../Logo/Logo';
 import "./Footer.css";
 
@@ -16,13 +17,13 @@ const Footer = () => {
           <div className='container text-center text-md-start mt-5 '>
 
 
-    <a href="" className="me-4 link-secondary"></a>
+    <Link to="" className="me-4 link-secondary"></Link>
      
-     <i className="bi bi-instagram"></i>
-     <a href="" className="me-4 link-secondary"></a>
+     <i className="bi bi-instagram"><Link to="link a instagram/" className="me-4 link-secondary"></Link></i>
+     
  
      <i className="bi bi-whatsapp"></i>
-     <a href="" className="me-4 link-secondary"></a>
+     <Link to="" className="me-4 link-secondary"></Link>
  
 
  </div>    

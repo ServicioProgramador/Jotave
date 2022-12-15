@@ -13,7 +13,16 @@ const data = [
     title: "titulo 2",
     price: 2000,
     category: "imagen",
-    detail: "ble ble ble",
+    detail: "SKU:	231029",
+
+    Marca:	"Samsung",
+    Pantalla:	"50 pulgadas" ,
+    Resolución :	"3,840 x 2,160" ,
+    Salidadesonido:	"20 W" ,
+    Audio:	"Dolby Digital Plus",
+    Conectividad:	"Bluetooth",
+    Funciona:	"Navegador Web",
+    Entradas:	"HDMI x 3 y USB x 1",    
   },
 
   {
@@ -29,7 +38,7 @@ const data = [
     img: "https://picsum.photos/200/300?random=4",
     title: "titulo 4",
     price: 4000,
-    category: "audio",
+    category: "freezer",
     detail: "blo blo blo",
   },
   {
@@ -45,7 +54,7 @@ const data = [
     img: "https://picsum.photos/200/300?random=6",
     title: "titulo 6",
     price: 6000,
-    category: "informatica",
+    category: "heladera",
     detail:
       "bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla",
       marca: "Samsung"
@@ -82,10 +91,40 @@ const data = [
     price: 10000,
     category: "imagen",
     detail: "blu blu blu",
-    marca: "Samsumg"
+    marca: "Samsumg",
+    Codigo:	"SKU 23456",
+    Pantalla:	"50 pulgadas" ,
+    Resolución :	"3,840 x 2,160" ,
+    Salidadesonido:	"20 W" ,
+    Audio:	"Dolby Digital Plus",
+    Conectividad:	"Bluetooth",
+    Funciona:	"Navegador Web",
+    Entradas:	"HDMI x 3 y USB x 1",   
   },
 ];
 
+
+/* export const columns = [{
+   name: "Marca",
+   selector: "marca",
+   soportable: true
+},{
+  name: "codigo",
+  selector: "codigo",
+  soportable: true
+},
+{
+  name: "Conectividad",
+  selector: "Conectividad",
+  soportable: true
+},
+{
+  name: "Marca",
+  selector: "marca",
+  soportable: true
+},
+
+] */
 export default function getItems() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {

@@ -1,12 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Item from "./Item";
-import { useState } from "react";
+
 
 export default function ItemList({ data }) {
 
-
-  
-   const [search, setSearch] = useState("");
+  const [search, setSearch] = useState("");
 
   //funcion busqueda
     const searcher = (e) => {
@@ -30,13 +28,13 @@ export default function ItemList({ data }) {
   return (
     <div className="container mt-5">
       <div className=" d-flex g-3 row">
-        <input
+      <input
           type="text"
           value={search}
           onChange={searcher}
-          placeholder="Search"
+          placeholder="Buscar productos"
           className="form-control"
-        /> 
+        />
         {results.map((item) => {
           return (
             <Item
