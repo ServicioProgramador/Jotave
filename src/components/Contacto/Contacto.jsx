@@ -1,7 +1,5 @@
 import React from 'react'
 import './Contacto.css'
-import { Footer } from '../Footer/Footer'
-import { NavBar } from '../NavBar/NavBar'
 import Whatsap from '../Whatsap/Whatsap'
 import { motion } from 'framer-motion'
 
@@ -32,7 +30,6 @@ const pathVariante={
 const Contacto = () => {
     return (
         <>
-        <NavBar />
 <motion.h6 
  animate={{x:0}}
 initial={{x:"-100vw"}}
@@ -71,7 +68,6 @@ whileHover={{scale:1, textShadow:'1px 1px 2px  grey'}}
       
 
         <Whatsap />
-        <Footer />
         </>
         
   ) 

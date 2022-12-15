@@ -10,8 +10,11 @@ import NotFound from "./components/NotFound/NotFound";
 import ComponentGeneral from "./components/ComponentGeneral/ComponentGeneral";
 import { Nosotros } from "./components/Nosotros/Nosotros";
 import { Contacto } from "./components/Contacto/Contacto";
+import { NavBar } from "./components/NavBar/NavBar";
+import { Footer } from "./components/Footer/Footer";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
+import { Ayuda } from "./components/Ayuda/Ayuda";
 
 function App() {
 
@@ -20,6 +23,7 @@ function App() {
     <>
 
     <BrowserRouter>
+    <NavBar />
 
 
       <Routes>
@@ -33,11 +37,13 @@ function App() {
         <Route path="/detail/:id" element={<ItemDetailContainer />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/ayuda" element={<Ayuda /> }  />
+
 
         <Route path="*" element={<NotFound />} />
 
       </Routes>
-
+     <Footer />
     </BrowserRouter>
 </>
   );

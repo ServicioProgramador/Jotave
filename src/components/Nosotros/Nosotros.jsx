@@ -1,6 +1,4 @@
 import React from 'react';
-import { Footer } from '../Footer/Footer';
-import { NavBar } from '../NavBar/NavBar';
 import { motion } from 'framer-motion';
 import './Nosotros.css';
  
@@ -10,7 +8,6 @@ const Nosotros = () => {
   return(
      <>
 
-              <NavBar />
       <div className='titulo'>
                 <motion.h1
                 initial={{y:-250}}
@@ -57,7 +54,6 @@ const Nosotros = () => {
                    
              </div>
         </div>
-           <Footer />
     </>
   ) 
 }

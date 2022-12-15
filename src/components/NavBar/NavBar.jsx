@@ -27,8 +27,8 @@ function NavBar() {
       <li className="nav-item">
       <Link className="nav-link" to="/contacto">Contacto</Link>
       </li>
-      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <li className="nav-item dropdown">
+      <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Productos
         </a>
         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
