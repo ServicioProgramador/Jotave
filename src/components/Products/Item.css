@@ -1,4 +1,4 @@
-.row{
+/* .row{
   padding-top: 15px;
 }
 
@@ -30,6 +30,7 @@
     transition: all 0.20s ease-in;
     cursor: pointer;
     
+
   }
 
   .card-count:hover{
@@ -38,7 +39,7 @@
   }
 
   .button_info{
-    background-color: #42687c;
+    background-color: yellow;
     border: none;
     margin: 20px auto;
     width: 112px;
@@ -46,3 +47,5 @@
     cursor: pointer;
 
   }
+
+   */

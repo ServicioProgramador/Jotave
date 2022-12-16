@@ -1,7 +1,18 @@
 import React from 'react'
+import './NotFound.css'
 
 export default function NotFound() {
   return (
-    <div>Ha llegado a una página que no existe</div>
+    
+   <>
+    
+       <div className='error'>
+
+    
+    <img src="https://i.ibb.co/2dtSwfx/error.png" alt="" className='imagen'/>
+    
+       </div> 
+    
+   </>
   )
 }

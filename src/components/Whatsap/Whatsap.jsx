@@ -4,8 +4,8 @@ import "./Whatsap.css"
 export default function Whatsap() {
   return (
     <>
-      <div class="float-end  div-wsp">
-        Whatsap
+      <div className="float-end  div-wsp">
+       
       </div>
     </>
   );

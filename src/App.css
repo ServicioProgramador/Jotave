@@ -1,6 +1,7 @@
-body {
-  background-image: url('/public/img/FondosInicio-Productos.png');
-}
+
+
+
+
 
 .App {
   text-align: center;
@@ -40,4 +41,7 @@ body {
   to {
     transform: rotate(360deg);
   }
+
 }
+
+
