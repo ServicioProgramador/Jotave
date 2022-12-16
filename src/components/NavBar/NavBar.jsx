@@ -55,9 +55,10 @@ function NavBar() {
           <li><Link className="dropdown-item" to="/categoria/calefaccion"><span>Calefactores</span><i className="bi bi-caret-down-fill"></i></Link></li>
           </ul>
              </li>
-           <li><Link className="dropdown-item" to="/categoria/heladeras y freezer"><span>Heladeras  y Freezer</span><i className="bi bi-caret-down-fill"></i></Link></li>
-           <li><Link className="dropdown-item" to="/categoria/terrmotanques"><span>Termotanques y Calefones</span></Link></li>
-           <li><Link className="dropdown-item" to="/categoria/cocinas y hornos"><span>Cocinas y Hornos</span><i className="bi bi-caret-down-fill"></i></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/heladeras y freezer"><span>Heladeras & Freezer</span><i className="bi bi-caret-down-fill"></i></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/termotanques"><span>Termotanques & Calefones</span></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/lavarropas"><span>Lavarropas & Secarropas</span></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/cocinas y hornos"><span>Cocinas & Hornos</span><i className="bi bi-caret-down-fill"></i></Link></li>
            <li><Link className="dropdown-item" to="/categoria/pequeños hogar"><span>Pequeños Hogar</span><i className="bi bi-caret-down-fill"></i></Link></li>
            <li><Link className="dropdown-item" to="/categoria/pequeños cocina"><span>Pequeños Cocina</span><i className="bi bi-caret-down-fill"></i></Link></li>
            <li><Link className="dropdown-item" to="/categoria/cuidado personal"><span>Cuidado personal</span></Link></li>
