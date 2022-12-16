@@ -1,7 +1,9 @@
-import React from "react";
-import "./Contacto.css";
-import Whatsap from "../Whatsap/Whatsap";
-import { motion } from "framer-motion";
+
+import React from 'react'
+import './Contacto.css'
+import Whatsap from '../Whatsap/Whatsap'
+import { motion } from 'framer-motion'
+
 
 const svgVariante = {
   hidden: { rotate: -180 },
@@ -26,45 +28,30 @@ const pathVariante = {
 };
 
 const Contacto = () => {
-  return (
-    <>
-      
-      <motion.h6
-        animate={{ x: 0 }}
-        initial={{ x: "-100vw" }}
-        transition={{ delay: 0.5, type: "spring" }}
-        whileHover={{ scale: 1, textShadow: "1px 1px 2px  grey" }}
-      >
-        Para realizar la compra seguí los pasos:
-      </motion.h6>
-      <div className="container justify-content-center text-center mt-10">
-        <div className="texto">
-          <p>
-            {" "}
-            <i className="bi bi-1-circle"></i> Solicitas el producto que deseas
-            comprar a nuestros vendedores.
-          </p>
-          <p>
-            <i className="bi bi-2-circle"></i> Te registramos en nuestro
-            sistema.
-          </p>
-          <p>
-            {" "}
-            <i className="bi bi-3-circle"></i> Se coordina que un inspector
-            visite tu domicilio para tu seguridad y la nuestra, y así pactamos
-            la entrega.
-          </p>
-          <p>
-            {" "}
-            <i className="bi bi-4-circle"></i> Se te envía el producto y llegado
-            a tu domicilio , probas el funcionamiento.
-          </p>
-          <p>
-            {" "}
-            <i className="bi bi-5-circle"></i> Luego firmas el contrato y abonas
-            la primer cuota y ya estaría todo listo para que lo disfrutes!
-          </p>
-        </div>
+
+    return (
+        <>
+<motion.h6 
+ animate={{x:0}}
+initial={{x:"-100vw"}}
+transition={{delay:0.5, type:'spring'}} 
+whileHover={{scale:1, textShadow:'1px 1px 2px  grey'}}
+>Para realizar la compra seguí los pasos:
+</motion.h6>
+      <div className='container justify-content-center text-center mt-10'>
+<div  className='texto'>
+ 
+    
+    <p> <i className="bi bi-1-circle"></i> Solicitas el producto que deseas comprar a nuestros vendedores.</p>
+    <p><i className="bi bi-2-circle"></i>   Te registramos en nuestro sistema.</p>
+    <p> <i className="bi bi-3-circle"></i> Se coordina que un inspector visite tu domicilio para tu seguridad y la nuestra, y así pactamos la entrega.</p>
+    <p> <i className="bi bi-4-circle"></i>  Se te envía el producto y llegado a tu domicilio , probas el funcionamiento.</p>
+    <p> <i className="bi bi-5-circle"></i>  Luego firmas el contrato y abonas la primer cuota y ya estaría todo listo para que lo disfrutes!</p>
+
+   
+    
+</div>
+
 
         <div className="iconos">
           <motion.svg
@@ -145,4 +132,12 @@ const Contacto = () => {
   );
 };
 
-export { Contacto };
+
+        <Whatsap />
+        </>
+        
+  ) 
+}
+
+export { Contacto }
+

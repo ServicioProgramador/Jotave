@@ -20,6 +20,10 @@ const data = [
     contro: "Sí",
     inverter: "No",
     gas: "R-410a",
+    category: "imagen",
+    // category: "Climatización",
+    detail: "STOCK DISPONIBLE",
+
   },
   {
     id: 2,
@@ -41,6 +45,10 @@ const data = [
     medidasMotor: "54,5cm Alto - 70cm Ancho - 30cm Prof.",
     pesoMotor: "27 kg",
     control: "Sí",
+    category: "imagen",
+    // category: "Climatización",
+    detail: "STOCK DISPONIBLE",
+
   },
 
   {
@@ -63,6 +71,9 @@ const data = [
     control: "Sí",
     inverter: "No",
     gas: "R-410a",
+    // category: "Climatización",
+    detail: "STOCK DISPONIBLE",
+
   },
   {
     id: 4,
@@ -76,6 +87,10 @@ const data = [
     frío_calor: "Si",
     tipo_energia: "A+",
     gas: "R-410A",
+    category: "imagen",
+    // category: "Climatización",
+    detail: "STOCK DISPONIBLE",
+
   },
   {
     id: 5,
@@ -89,6 +104,10 @@ const data = [
     frío_calor: "Si",
     tipo_energia: "A+",
     gas: "R-410A",
+    category: "imagen",
+    // category: "Climatización",
+    detail: "STOCK DISPONIBLE",
+
   },
   {
     id: 6,
@@ -117,10 +136,25 @@ const data = [
     altura: "1,4 metros",
     potencia: "180W",
     aspas: "Plásticas",
+    title: "Ventilador VITTA 18Pulgadas 3 en 1 90w",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE",
+  },
+  {
+    id: 7,
+    img: "https://i.ibb.co/7V2dS40/ventilador-industrial-vitta-30-Pulgadas-2-en-1.jpg",
+    title: "Ventilador Industrial VITTA 30Pulgadas 2 en 1",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE",
   },
 
   {
     id: 8,
+
     img: "https://i.ibb.co/N6LrtJg/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.jpg",
     title: "Ventilador 18'' 3 en 1 STAR TRAK",
     price: "$00,00",
@@ -146,6 +180,21 @@ const data = [
     altura: "1,50 metros",
     potencia: "90W",
     otro: "Repele Mosquitos"
+    img: "https://i.ibb.co/N6LrtJg/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.jpg",
+    title: "Ventilador 18Pulgadas 3 en 1 STAR TRAK",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
+  },
+  {
+    id: 9,
+    img: "https://i.ibb.co/MgJGJFf/Ventilador-Pie-14-Pulgadas-Base-Pesada-STAR-TRAK.jpg",
+    title: "Ventilador Pie 14Pulgadas Base Pesada STAR TRAK",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
   },
   {
     id: 10,
@@ -161,6 +210,11 @@ const data = [
     altura: "1,50 metros",
     potencia: "90W",
     otro: "Repele Mosquitos",
+    title: "Ventilador Pie 14Pulgadas STAR TRAK Multi",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
   },
   {
     id: 11,
@@ -176,6 +230,11 @@ const data = [
     altura: "1,70 Metros",
     potencia: "120W",
     otro: "Repele Mosquitos",
+    title: "Ventilador 20Pulgadas STAR TRAK",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
   },
   {
     id: 12,
@@ -193,6 +252,9 @@ const data = [
     timer: "No",
     peso: "6,6 kgs",
     dimesion: "Alto: 70 cm Ancho: 28 cm Prof: 26,5 cm",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
   },
   {
     id: 13,
@@ -206,6 +268,9 @@ const data = [
     control: "Si",
     cantidad_agua: "8 Litros",
     dimensiones: "Alto 70 cm Ancho 37 cm Prof: 29 cm",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
   },
   {
     id: 14,
@@ -1078,8 +1143,67 @@ const data = [
     price: "$00,00",
     category: "",
     marca: "",
-
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
   },
+  {
+    id: 15,
+    img: "https://picsum.photos/200/300?random=10",
+    title: "titulo 10",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
+  },
+  {
+    id: 16,
+    img: "https://picsum.photos/200/300?random=10",
+    title: "titulo 10",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
+  },
+  {
+    id: 17,
+    img: "https://picsum.photos/200/300?random=10",
+    title: "titulo 10",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
+  },
+  {
+    id: 18,
+    img: "https://picsum.photos/200/300?random=10",
+
+    title: "Heladera",
+    price: 10000,
+
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
+  },
+  {
+    id: 19,
+    img: "https://picsum.photos/200/300?random=10",
+    title: "titulo 10",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
+  },
+  {
+    id: 20,
+    img: "https://picsum.photos/200/300?random=10",
+    title: "titulo 10",
+    price: "$00,00",
+    category: "imagen",
+    // category: "Climatización",
+    deetail: "STOCK DISPONIBLE"
+  },
+
 ];
 
 export default function getItems() {
