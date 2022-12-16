@@ -383,7 +383,12 @@ function ItemListContainer() {
           </ul>
         </div>
         <div className=" p-2 flex-grow-1 bd-highlight">
-          <ItemList data={data} />
+          <div className="row">
+            <span></span>
+            <div>
+              <ItemList data={data} />
+            </div>
+          </div>
         </div>
       </div>
     </div>
