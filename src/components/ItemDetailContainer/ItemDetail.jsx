@@ -68,8 +68,8 @@ function ItemDetail({ data }) {
             <td>{data.marca}</td>
           </tr>
           <tr>
-            <th scope="row">Pantalla</th>
-            <td>{data.Pantalla} </td>
+            <th scope="row">Velocidades</th>
+            <td>{data.velocidades} </td>
           </tr>
           <tr>
             <th scope="row">Audio</th>
