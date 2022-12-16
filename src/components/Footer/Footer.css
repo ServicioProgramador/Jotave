@@ -1,0 +1,23 @@
+
+.div-footer{
+    margin-top: 300px;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 20px;
+
+}
+.link2 {
+    text-decoration: none;
+    color: black;
+}
+.link2:hover {
+    color: orange;
+
+} 
+.enlace {
+    text-decoration: none;
+}
+

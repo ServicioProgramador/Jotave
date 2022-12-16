@@ -1,13 +1,8 @@
-import React, {} from "react";
+import React from "react";
 import "./ItemDetail.css";
 import { Link } from "react-router-dom";
 
-
 function ItemDetail({ data }) {
-
-
-  //const { cat } = useParams();
-
   return (
     <>
       <div className="container">
@@ -19,12 +14,12 @@ function ItemDetail({ data }) {
           </li>
           <li className="nav-item p-2 bd-highlight">
             <Link className="nav-item" aria-current="page" to="/categoria">
-            {data.category}
+              {data.category}
             </Link>
           </li>
           <li className="nav-item p-2 bd-highlight">
             <Link className="nav-item" aria-current="page" to="/">
-            {data.title}
+              {data.title}
             </Link>
           </li>
         </ul>
@@ -41,7 +36,8 @@ function ItemDetail({ data }) {
           </div>
           {/* info */}
           <div className="card-body col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h5 className="card-title fs-1 text-uppercase">{data.title} </h5>
+            <h2 className="card-title fs-1 text-uppercase">{data.title} </h2>
+            <p className="card-text">Descripcion</p>
             <p className="card-text">{data.detail} </p>
           </div>
           <span className="stock p-2">
@@ -57,9 +53,38 @@ function ItemDetail({ data }) {
             <button type="button">Link a wsp</button>
           </div>
         </div>
-
       </div>
-      
+
+      <table class="table container mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Caracteristicas</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Marca</th>
+            <td>{data.marca}</td>
+          </tr>
+          <tr>
+            <th scope="row">Pantalla</th>
+            <td>{data.Pantalla} </td>
+          </tr>
+          <tr>
+            <th scope="row">Audio</th>
+            <td>{data.Audio} </td>
+          </tr>
+          <tr>
+            <th scope="row">Conectividad</th>
+            <td>{data.Conectividad} </td>
+          </tr>
+          <tr>
+            <th scope="row">Codigo</th>
+            <td>{data.Codigo} </td>
+          </tr>
+        </tbody>
+      </table>
     </>
   );
 }

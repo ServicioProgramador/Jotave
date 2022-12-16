@@ -87,7 +87,7 @@ const data = [
   {
     id: 10,
     img: "https://picsum.photos/200/300?random=10",
-    title: "Heladera",
+    title: "Prueba de table",
     price: 10000,
     category: "imagen",
     detail: "blu blu blu",

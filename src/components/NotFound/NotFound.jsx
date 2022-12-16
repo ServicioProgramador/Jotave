@@ -5,7 +5,6 @@ export default function NotFound() {
   return (
     
    <>
-     
     
        <div className='error container'>
 
@@ -14,7 +13,6 @@ export default function NotFound() {
     
        </div> 
     
-  
    </>
   )
 }
