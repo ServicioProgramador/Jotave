@@ -51,7 +51,7 @@
       img: "https://i.ibb.co/g9mKHqb/aire-acondicionado-split-kanji-3200w-fc.jpg",
       title: "Aire acondicionado Split KANJI 3200w FC",
       price: "$00,00",
-      category: "imagen",
+      category: "aire",
       marca: "KANJI",
       display: "No",
       deflectores_moviles: "Sí",
