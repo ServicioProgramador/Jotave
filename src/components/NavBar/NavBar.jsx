@@ -5,6 +5,7 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <>
+
       <nav className="navbar navbar-expand-lg navbar-light  ">
         <div className="container d-flex justify-content-between">
           <div className="container d-flex justify-content-around">
@@ -507,6 +508,7 @@ function NavBar() {
         </div>
       </nav>
     </>
+
   );
 }
 
