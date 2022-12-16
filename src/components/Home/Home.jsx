@@ -14,13 +14,13 @@ const Home = () => {
 
    return(
         <div>
-               
+
                <Carousel /> 
                <SliderViewedListContainer />
                <InfoWsp/>
                <SliderListContainer />
                <Whatsap />
-               
+
             </div>
   ) 
 }
