@@ -20,6 +20,7 @@ const data = [
     contro: "Sí",
     inverter: "No",
     gas: "R-410a",
+    category: "imagen",
   },
   {
     id: 2,
@@ -63,7 +64,7 @@ const data = [
     control: "Sí",
     inverter: "No",
     gas: "R-410a",
-  },
+  }
   {
     id: 4,
     img: "https://i.ibb.co/r67MbZ3/aire-acondicionado-inverter-greenstay-fc-3500.jpg",
@@ -118,7 +119,6 @@ const data = [
     potencia: "180W",
     aspas: "Plásticas",
   },
-
   {
     id: 8,
     img: "https://i.ibb.co/N6LrtJg/Ventilador-18-Pulgadas-3-en-1-STAR-TRAK.jpg",
@@ -161,6 +161,9 @@ const data = [
     altura: "1,50 metros",
     potencia: "90W",
     otro: "Repele Mosquitos",
+    title: "Ventilador Pie 14Pulgadas STAR TRAK Multi",
+    price: "$00,00",
+    category: "imagen",
   },
   {
     id: 11,
@@ -1098,7 +1101,6 @@ const data = [
     price: "$00,00",
     category: "",
     marca: "",
-
   },
 ];
 
