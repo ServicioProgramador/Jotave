@@ -26,7 +26,7 @@ function NavBar() {
    <Link className="nav-link" to="/contacto">Contacto</Link>
    </li>
    <li class="nav-item dropdown">
-   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+   <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
        Productos
      </a>
      <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,6 +58,7 @@ function NavBar() {
            <li><Link className="dropdown-item" to="/categoria/termotanques"><span>Termotanques & Calefones</span></Link></li>
            <li><Link className="dropdown-item" to="/categoria/lavarropas"><span>Lavarropas & Secarropas</span></Link></li>
            <li><Link className="dropdown-item" to="/categoria/cocinas y hornos"><span>Cocinas & Hornos</span><i className="bi bi-caret-down-fill"></i></Link></li>
+           <li><Link className="dropdown-item" to="/categoria/equipamiento"><span>Equipamiento Comercial</span><i className="bi bi-caret-down-fill"></i></Link></li>
            <li><Link className="dropdown-item" to="/categoria/pequeños hogar"><span>Pequeños Hogar</span><i className="bi bi-caret-down-fill"></i></Link></li>
            <li><Link className="dropdown-item" to="/categoria/pequeños cocina"><span>Pequeños Cocina</span><i className="bi bi-caret-down-fill"></i></Link></li>
            <li><Link className="dropdown-item" to="/categoria/cuidado personal"><span>Cuidado personal</span></Link></li>

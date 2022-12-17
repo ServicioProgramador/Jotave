@@ -6,7 +6,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 import SliderViewedDetailContainer from "./components/SliderViewedDetailContainer/SliderViewedDetailContainer";
 import SliderDetailContainer from "./components/SliderDetailContainer/SliderDetailContainer";
 import NotFound from "./components/NotFound/NotFound";
-/* import ComponentGeneral from "./components/ComponentGeneral/ComponentGeneral"; */
+import ComponentGeneral from "./components/ComponentGeneral/ComponentGeneral";
 import { Nosotros } from "./components/Nosotros/Nosotros";
 import { Contacto } from "./components/Contacto/Contacto";
 

@@ -1,11 +1,8 @@
-.logonavbar {
-
-    width: 100px;
+.logoNavbar {
+    width: 150px;
     height: 80px;
     left:-20px    
- 
-
-}
+ }
 
 a.navbar-brand {
     margin-left: 2rem;

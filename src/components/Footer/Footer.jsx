@@ -18,7 +18,7 @@ const Footer = () => {
           <div className='container text-center text-md-start mt-5 '>
 
 
-    <a href="https:/www.instagram.com/grupojotave/" target="_blank" className="me-4 link-secondary"><i className="bi bi-instagram"></i></a>
+    <a href="https:/www.instagram.com/grupojotave/" rel="noopener" className="me-4 link-secondary"><i className="bi bi-instagram"></i></a>
      
  
      <a href="wa.me/message/X4ZZ4IV3BEKVB1" className="me-4 link-secondary"><i className="bi bi-whatsapp"></i></a>
