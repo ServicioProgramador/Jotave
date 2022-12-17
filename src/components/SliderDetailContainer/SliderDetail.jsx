@@ -7,7 +7,7 @@ function SliderDetail({ data }) {
       <div className="container card mt-5 d-flex p-1">
         <div className="row g-0">
           {/* imagen */}
-          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center">
             <img
               src={data.img}
               className="img-fluid rounded-start image"

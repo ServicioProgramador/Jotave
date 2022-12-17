@@ -15,6 +15,10 @@ import { Footer } from "./components/Footer/Footer";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { Ayuda } from "./components/Ayuda/Ayuda";
+import { Table } from "./components/Table/Table";
+
+
+
 
 
 function App() {
@@ -27,8 +31,7 @@ function App() {
 
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/" element={<ComponentGeneral />} />
+        <Route path="/" element={<Home />} />        
         <Route path="/SliderDetail/:id" element={<SliderDetailContainer />} />
         <Route path="/SliderViewedDetail/:id" element={<SliderViewedDetailContainer />}
         />
@@ -43,6 +46,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
 
       </Routes>
+ <Table/>
      <Footer />
     </BrowserRouter>
 </>

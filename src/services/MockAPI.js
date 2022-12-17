@@ -1447,6 +1447,28 @@ const data = [
   },
 ];
 
+
+/* export const columns = [{
+   name: "Marca",
+   selector: "marca",
+   soportable: true
+},{
+  name: "codigo",
+  selector: "codigo",
+  soportable: true
+},
+{
+  name: "Conectividad",
+  selector: "Conectividad",
+  soportable: true
+},
+{
+  name: "Marca",
+  selector: "marca",
+  soportable: true
+},
+
+] */
 export default function getItems() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
