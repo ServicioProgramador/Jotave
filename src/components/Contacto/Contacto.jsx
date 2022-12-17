@@ -133,11 +133,6 @@ whileHover={{scale:1, textShadow:'1px 1px 2px  grey'}}
 };
 
 
-        <Whatsap />
-        </>
-        
-  ) 
-}
 
 export { Contacto }
 

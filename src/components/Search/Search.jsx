@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 export default function Search() {
 
 
@@ -49,7 +50,7 @@ export default function Search() {
             stock={item.stock}
           </>
         );
-      })}{" "}
+      })}{" "} 
     </form>
   );
 }

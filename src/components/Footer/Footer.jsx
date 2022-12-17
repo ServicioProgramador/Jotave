@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Logo } from '../Logo/Logo';
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import "./Footer.css";
 
 
@@ -18,10 +19,16 @@ const Footer = () => {
           <div className='container text-center text-md-start mt-5 '>
 
 
-    <a href="https:/www.instagram.com/grupojotave/" target="_blank" className="me-4 link-secondary"><i className="bi bi-instagram"></i></a>
+
+    <Link to="" className="me-4 link-secondary"></Link>
+     
+     <i className="bi bi-instagram"><Link to="link a instagram/" className="me-4 link-secondary"></Link></i>
      
  
      <a href="wa.me/message/X4ZZ4IV3BEKVB1" className="me-4 link-secondary"><i className="bi bi-whatsapp"></i></a>
+ 
+     <a href="wa.me/message/X4ZZ4IV3BEKVB1" className="me-4 link-secondary"><i className="bi bi-whatsapp"></i></a>
+
  
 
          </div>    
